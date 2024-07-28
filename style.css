@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#o{
+    font-size: 46px;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(245 , 10 , 10);
+}
+#f{
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: black;
+}
+#navbar img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    display: block;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 14vh;
+    width: 98.50vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+}
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 63vh;
+    width: 100vw;
+}
+#container1::before{
+    content: '';
+    background: url("https://media.geeksforgeeks.org/wp-content/uploads/20240711124309/8513909_3941598-(2).jpg") no-repeat center center/cover;
+    height: 59vh;
+    width: 98.50vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-right: 45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+    border-bottom-left-radius: 100px;
+}
+#row1{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35px;
+}
+.btn{
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#container2{
+    display: flex;
+    justify-content: space-evenly;    
+}
+#row2{
+    height: 21vh;
+    width: 50vh;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 38px;
+    border-radius: 40px;
+}
+#row2::before{
+    content: '';
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123257/jpeg-optimizer_2151336570.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 21vh;
+    width: 50vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#row3{
+    position: relative;
+    height: 21vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    margin-left: 38px;
+    border-radius: 40px;
+}
+#row3::before{
+    content: '';
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123256/jpeg-optimizer_6656747_21351.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 21vh;
+    width: 50vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#top3{
+    text-align: center;
+    color: red;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#container3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}
+#row4{
+    height: 360px;
+    width: 29vw;
+    border: 2px solid black;
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123258/jpeg-optimizer_various-meals-western-food-platter-dark-background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+#row5{
+    height: 360px;
+    width: 29vw;
+    border: 2px solid black;
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123257/jpeg-optimizer_2151182491.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 15px;
+}
+#row6{
+    height: 360px;
+    width: 29vw;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 15px;
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123255/jpeg-optimizer_4744.jpg') no-repeat center center/cover;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    height: 10vh;
+}
