@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#p{
+    font-size: 46px;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(245 , 10 , 10);
+}
+#g{
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: black;
+}
+#navbar img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    display: block;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 14vh;
+    width: 98.50vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+}
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+#div1{
+    background-color: black;
+    width: 98.50vw;
+    height: 170vh;
+    display: flex;
+    border-radius: 15px;
+}
+#img1{
+    margin-top: 0px;
+    margin-left: 340px;
+}
+#h1{
+    color: white;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 80px;
+}
+#h2{
+    color: white;
+    margin-top: 250px;
+    margin-left: -1200px;
+}
+.ul{
+    color: white;
+    margin-top: 350px;
+    margin-left: -200px;
+}
+.sp{
+    background-color: chocolate;
+    color: black;
+}
+#ul{
+    color: white;
+    margin-top: 700px;
+    margin-left: 300px;
+}
+#dl{
+    color: white;
+    margin-top: 900px;
+    margin-left: -215px;
+}
+#img2{
+    margin-top: 692px;
+    height: 400px;
+    margin-left: -340px;
+    border-radius: 0ic;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    height: 10vh;
+}

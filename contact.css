@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#p{
+    font-size: 46px;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(245 , 10 , 10);
+}
+#g{
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: black;
+}
+#navbar img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    display: block;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 14vh;
+    width: 98.50vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+}
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    height: 10vh;
+}
+#div1{
+    height: 100vh;
+    background-color: rgb(98, 97, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#h1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+.form-shape input, 
+.form-shape select,
+.form-shape textarea{
+    width: 92%;
+    padding: 0.5rem;
+}
+::placeholder{
+    color: grey;
+}

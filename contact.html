@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/onlinefoodwebsite/assets/css/contact.css">
+</head>
+<body>
+    <header>
+        <h1 id="p">Online</h1>
+        <h1 id="g">FoodShop</h1>
+    </header>
+    <hr>
+    <nav id="navbar">
+        <img src="https://img.freepik.com/free-photo/3d-character-emerging-from-smartphone_23-2151336570.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1720396800&semt=ais_user">
+        <ul id="navcontent">
+            <li><a href="/onlinefoodwebsite/index.html">Home</a></li>
+            <li><a href="/onlinefoodwebsite/assets/html/about.html">About</a></li>
+            <li><a href="/onlinefoodwebsite/assets/html/menu.html">Menu</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <p id="Contact">
+        <div id="div1">
+            <h1 id="h1">ContactUs</h1>
+            <form action="/onlinefoodwebsite/assets/html/submit.html">
+                <div class="form-shape">
+                <label for="query">Type of Query</label>
+                <select id="query">
+                    <option value="sel">Select</option>
+                    <option value="ord">Order releted Issues</option>
+                    <option value="sri">Site releted Issues</option>
+                    <option value="cmi">Complaint releted Issues</option>
+                    <option value="othr">Others</option>
+                </select>
+                </div>
+                <div class="form-shape">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-shape">
+                    <label for="mail">Email-Id</label>
+                    <input type="email" id="mail" placeholder="Enter your email">
+                </div>
+                <div class="form-shape">
+                    <label for="Phone">Phone Number</label>
+                    <input id="Phone" type="tel" placeholder="Enter your Phone no.">
+                </div>
+                <div>
+                    Are you a member of OnlneFoodShop:
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="Are you a member of OnlneFoodShop:" value="yes" id="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="Are you a member of OnlneFoodShop:" value="no" id="no">
+                </div>
+                <div class="form-shape">
+                    <label for="tet">Ellaborate your query</label>
+                    <textarea id="tet" rows="10" cols="30" required="true"></textarea>
+                </div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </form>            
+        </div>
+        <footer>
+            Copyright © 2020-2021 OnlineFoodShop.
+        All Rights are reserved
+        </footer>
+    </p>
+</body>
+</html>
